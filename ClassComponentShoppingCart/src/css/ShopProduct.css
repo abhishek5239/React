@@ -1,0 +1,39 @@
+.divFlexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.divProductItems{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.shopProductImage{
+    
+    height: 200px;
+    width: 200px;
+  
+}
+.divImage{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+   
+}
+.divShopProduct{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.divButtonToCart{
+    display: flex;
+    justify-content: center;
+}
+.buttonGoToCart{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+}

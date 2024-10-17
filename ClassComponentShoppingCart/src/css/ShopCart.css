@@ -1,0 +1,28 @@
+.divShopCart{
+    margin: 20px;
+}
+.divProductImage{
+    height: 250px;
+    width: 250px;
+}
+.productImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.divProductBox{
+    display: flex;
+    gap: 10px;
+}
+.divAmount{
+    display: flex;
+    gap: 12px;
+}
+.incre{
+    padding: 5px;
+}
+
+.applyButton{
+    margin: 5px;
+    background-color: cadetblue;
+}

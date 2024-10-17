@@ -12,10 +12,11 @@ function App() {
   return (
 
     <> 
-    <AddTodo name="abhishek"/>
+    {/* <AddTodo name="abhishek"/> */}
     {/* <Counter/> */}
     {/* <Display/> */}
     {/* <ApiGet/>  */}
+    <Counter/>
    
     </>
   )

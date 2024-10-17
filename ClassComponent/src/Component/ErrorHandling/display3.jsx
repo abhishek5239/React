@@ -22,8 +22,6 @@ class DisplayThree extends React.Component
             </>
         )
     }
-
-    
 }
 
 export default DisplayThree

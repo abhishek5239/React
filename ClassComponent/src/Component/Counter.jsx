@@ -9,7 +9,7 @@ class Counter extends React.Component{
             count:0
         }
     }
-changeCounter()
+changeCounter=()=>
 {
     console.log("hi");
     this.setState((prevstate)=>({count:prevstate.count+1}))
@@ -25,7 +25,7 @@ componentDidUpdate(prevprops,prevstate)
         return(
             <>
             <CounterTwo num={this.state.count}/>
-            <button onClick={this.changeCounter.bind(this)}>+</button>
+            <button onClick={()=>this.changeCounter()}>+</button>
             </>
         )
     }
